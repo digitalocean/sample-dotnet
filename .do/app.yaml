@@ -1,0 +1,6 @@
+name: sample-dotnet
+services:
+- name: web
+  github:
+    repo: digitalocean/sample-dotnet
+    branch: main
