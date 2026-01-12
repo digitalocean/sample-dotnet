@@ -1,0 +1,45 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = ".NET Getting Started on DigitalOcean App Platform";
+}
+
+<div class="jumbotron text-center">
+    <div class="container">
+        <a href="/" class="lang-logo">
+            <img src="/lang-logo.png">
+        </a>
+        <h1>Getting Started with .NET on DigitalOcean App Platform</h1>
+        <p>This is a sample .NET application deployed to DigitalOcean App Platform. It's a reasonably simple app - but a good foundation for understanding how to get the most out of the DigitalOcean platform.</p>
+        <a type="button" class="btn btn-lg btn-default" href="https://docs.digitalocean.com/products/app-platform/reference/buildpacks/dotnet/"><span class="glyphicon glyphicon-flash"></span> Getting Started on DigitalOcean App Platform with .NET</a>
+        <a type="button" class="btn btn-lg btn-primary" href="https://github.com/digitalocean/sample-dotnet"><span class="glyphicon glyphicon-download"></span> Source on GitHub</a>
+    </div>
+</div>
+<div class="container">
+    <div class="lead">
+        To deploy your own copy, and learn the fundamentals of the DigitalOcean platform, head over to either of the following tutorials:
+        <ul>
+            <li><a href="https://docs.digitalocean.com/products/app-platform/reference/buildpacks/dotnet/" class="alert-link">Getting Started with .NET</a></li>
+        </ul>
+    </div>
+    <hr />
+    <div class="row">
+        <div class="col-md-6">
+            <h3><span class="glyphicon glyphicon-info-sign"></span> How this sample app works</h3>
+            <ul>
+                <li>This app was deployed to DigitalOcean App Platform</li>
+                <li>When DigitalOcean received the source code, it fetched all the dependencies in the <a href="https://github.com/digitalocean/sample-dotnet/blob/main/Frontend/Frontend.csproj">web project</a>, create a deployable build artifact and deploy them.</li>
+            </ul>
+        </div>
+        <div class="col-md-6">
+            <h3><span class="glyphicon glyphicon-link"></span> Helpful Links</h3>
+            <ul>
+                <li><a href="https://www.digitalocean.com/">DigitalOcean</a></li>
+                <li><a href="https://docs.digitalocean.com/products/app-platform/">DigitalOcean App Platform Docs</a></li>
+                <li><a href="https://docs.digitalocean.com/products/app-platform/reference/buildpacks/dotnet/">Getting Started on DigitalOcean App Platform with .NET</a></li>
+                <li><a href="https://github.com/digitalocean/sample-dotnet">Sample .NET App on GitHub</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
